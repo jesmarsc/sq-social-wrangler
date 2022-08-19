@@ -1,0 +1,19 @@
+name = "sq-social-images"
+main = "src/index.ts"
+compatibility_date = "2022-08-12"
+
+
+[[rules]]
+globs = ["**/*.ttf"]
+type = "Data"
+fallthrough = true
+
+[[rules]]
+globs = ["**/*.svg"]
+type = "Text"
+fallthrough = true
+
+[[rules]]
+globs = ["**/*.yml"]
+type = "Text"
+fallthrough = true

@@ -1,0 +1,41 @@
+title: Payment Operations
+desc: Let’s start with the basics. Experiment with accounts and payments in this fundamental series.
+seriesPrize: 20
+challenges:
+  - gist: 96433cde6bf42fd6d063fdb9f523f9d9
+    badges:
+      main: GDCBRDWFCCS7MY7BJREOLLEXYTWUFDGIEZZOXPD7EALXHDFCQY3QL7AE
+    context:
+      title: Create Account
+      desc: Create an account on the Stellar network
+      paragraphs:
+  - gist: b9f4a084e3b07cabd7ebc00206b90387
+    badges:
+      main: GB76OH7Z2N4BWUZREZTJ36WUDMAFCDYISM26MCNTJWZQ63D3NROYKBOZ
+    context:
+      title: Payment
+      desc: Send an amount of a specific asset to a destination account
+      paragraphs:
+  - gist: 2b08aaa903a8966ba33aec0293afcbad
+    badges:
+      main: GDOPCKCQEXJFVXLWHHGVIVXYT5FKKYWRPPLPKK32RPNCKXURKZUVPJTG
+    context:
+      title: Change Trust
+      desc: Create a trustline between two accounts for a designated asset
+      paragraphs:
+  - gist: 28846d0ad53f22a5f3c8c94dfb1a74d5
+    badges:
+      main: GCEUS7FJMZWV5MGYQRUF6SR3T3IQVPASWXMT6REV5CB76N4RGOWST4JU
+    context:
+      title: Manage Offers
+      desc: Create an offer to buy or sell a specific asset for another
+      paragraphs:
+  - gist: 39bc3fe9549fce4c261c102f05a652e8
+    badges:
+      main: GABPJ5EWLQBVTVMHJPMF7DZ5OOZXR3JRTA3EBZEMJII6C57UEQDP4HNO
+    context:
+      title: Path Payments
+      desc: Send or receive an asset that is different from the received or sent asset
+      paragraphs:
+# wrangler kv:key put --binding STORE 1:learn --path learn/1/main.yml
+# wrangler kv:key put --binding STORE 1:learn:0 --path learn/1/0.md

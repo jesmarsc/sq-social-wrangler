@@ -1,0 +1,41 @@
+title: Configuration Operations
+desc: Time to dig a little deeper with some more complex account-level operations.
+seriesPrize: 30
+challenges:
+  - gist: 0cf2bfffb3d75441739830ea067e0757
+    badges:
+      main: GBOKD6LRD3TRNHCEOBLD44MPE3KXUF3NBXNBH2IYZHIHGG7KXZ3VANS7
+    context:
+      title: Account Merge
+      desc: Delete an account by transferring its XLM balance to another account
+      paragraphs:
+  - gist: 45c8072eac094256a76d88174ce3e242
+    badges:
+      main: GBYKVKGE3Z3YZFR4X4OXV4R5U5VZ52BZKFVRO3QOD62CQDBHJ6EN4RBK
+    context:
+      title: Manage Data
+      desc: Add a data entry to an account
+      paragraphs:
+  - gist: fce5749226ab8b1ba2dd9774d3f944c7
+    badges:
+      main: GAEQEWJ4SFB5U2HLW6RJA3Z2VWYKOTFVGRROFH3MNIOGDWWH5LDS3UG6
+    context:
+      title: Set Options - Home Domain
+      desc: Set the home domain of an account
+      paragraphs:
+  - gist: 9647a5aeecee6c8e89cc912e126367a0
+    badges:
+      main: GD42KD354VPRHU3ZD3T6UEVXCABJU242H7MUEWNW7CNQTPSLK3AOIOGH
+    context:
+      title: Set Options - Weights, Thresholds, and Signers
+      desc: Set the master key’s weight, determine the operation threshold, and manage signers
+      paragraphs:
+  - gist: cd64673db92c90044292d69740bc45a2
+    badges:
+      main: GC64TX2VL5YVNQ7YSTXQAYEQDTU3KYNWQUVPCTL5Z7XULA74LJLC4H27
+    context:
+      title: Set Flags
+      desc: Control access to an asset by setting flags on its issuing account
+      paragraphs:
+# wrangler kv:key put --binding STORE 2:learn --path learn/2/main.yml
+# wrangler kv:key put --binding STORE 2:learn:0 --path learn/2/0.md

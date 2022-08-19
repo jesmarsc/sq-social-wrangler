@@ -1,0 +1,47 @@
+title: Advanced Operations
+desc: Gear up to learn some of the wildest operations on the Stellar network.
+seriesPrize: 50
+challenges:
+  -
+    gist: a6f191c5463dd9588753030bf6554fbf
+    badges: 
+      main: GCPFKCAL2YBIHX66MBF465NAF5KL55A6EJI7C4ZHAVIRAUKTNM3BKSJT
+    context:
+      title: Bump Sequence
+      desc: Increase the sequence number of an account to a new given sequence number 
+      paragraphs: 
+  -
+    gist: fd90e78d7057e3fc4a365f678b4c5ced
+    badges: 
+      main: GBPFHCWQEKMD6TS6Z73N2FQHMIIHB3Q6223LOIN3RSHNKUFFFEEL2LQD
+    context:
+      title: Sponsorship
+      desc: Pay account subentry reserves with another account
+      paragraphs: 
+  -
+    gist: 35034098cc6aa1cf37801771a4b03c29
+    badges: 
+      main: GCS53T3NE3TWJXZRW6KYNQV5HIQ45SOGVUEE5Q4UIX6Z4SUANTKBTDQ7
+    context:
+      title: Claimable Balances
+      desc: Send an amount of an asset from a source account to be accepted by a receiving account 
+      paragraphs: 
+  -
+    gist: 23e6d3c5071a87881ae650621934ae19
+    badges: 
+      main: GAF4P42BZL2RX4P5ZZYW4XCW4EZGL5WD7EJTTOFZ5IH2P2HFMI6SPZ4Z
+    context:
+      title: Clawbacks
+      desc: Burn an amount of a specific asset from a receiving account
+      paragraphs: 
+  -
+    gist: 
+    badges: 
+      main: GBA35OV7NKUAV7TD4P7UIK2RNQGY2LKFOO4XTNKSZLJRNBL5JXL5BBXL
+    context:
+      title: Liquidity Pools
+      desc: Deposit or withdraw assets of a liquidity pool in exchange for pool shares 
+      paragraphs: 
+
+# wrangler kv:key put --binding STORE 3:learn --path learn/3/main.yml
+# wrangler kv:key put --binding STORE 3:learn:0 --path learn/3/0.md

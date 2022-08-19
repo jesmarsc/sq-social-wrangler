@@ -1,0 +1,22 @@
+title: Side Quests
+desc: Venture forth to learn even more about what Stellar has to offer with these supplemental side quests.
+challenges:
+  -
+    gist: 0c4ea2e9aa320bcaf8fccfe5fa421877
+    badges: 
+      main: GAOILZ7SVHGY7ZXBGRD2JPUFUR4BR2ZQCS4M2J4NKR2FSFSHFZPU44GY
+    context:
+      title: Side Quest - Fee-Bump Transactions
+      desc: Pay the transaction fee for another account
+      paragraphs: 
+  -
+    gist: 88c04e6409d67b01b5b9a80d38c30c71
+    badges:
+      main: GANLKSR75HSQOTZRMXYKV7O453XJKJ2ZZXCRUV3CYO5OIEOPQBU5HNPN
+    context:
+      title: Side Quest - Mint an NFT on Stellar
+      desc: Publish an NFT on the Stellar blockchain
+      paragraphs: 
+
+# wrangler kv:key put --binding STORE ssq --path ssq/main.yml
+# wrangler kv:key put --binding STORE ssq:0 --path ssq/0.md

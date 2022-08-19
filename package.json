@@ -14,7 +14,6 @@
     "deploy": "wrangler publish"
   },
   "dependencies": {
-    "@fontsource/ibm-plex-sans": "^4.5.12",
     "itty-router": "^2.6.1",
     "itty-router-extras": "^0.4.2",
     "js-yaml": "^4.1.0",

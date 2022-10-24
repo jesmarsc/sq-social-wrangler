@@ -6,7 +6,7 @@ type Options = {
 };
 
 export default ({ title, subtitle, level, image }: Options) => `
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="crispEdges">
 <g clip-path="url(#clip0_1444_31742)">
 <rect width="1200" height="630" fill="#010323"/>
 <rect x="-261" y="-318" width="573.87" height="633" fill="url(#pattern0)"/>
@@ -264,7 +264,7 @@ export default ({ title, subtitle, level, image }: Options) => `
 <rect x="745.985" y="340.97" width="555.939" height="14.0153" fill="#080B3E"/>
 <rect x="847.596" y="354.984" width="140.153" height="14.0153" fill="#080B3E"/>
 <g clip-path="url(#clip1_1444_31742)">
-<rect x="151" y="208" width="185.604" height="185.604" fill="url(#pattern6)"/>
+<rect x="151" y="208" width="168" height="168" fill="url(#pattern6)"/>
 </g>
 <rect x="152.055" y="209.055" width="165.891" height="165.891" stroke="#23234E" stroke-width="2.10913"/>
 <text fill="#07FFEE" xml:space="preserve" style="white-space: pre" font-family="Play" font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="604.179" y="236.972">Stellar Quest </tspan></text>

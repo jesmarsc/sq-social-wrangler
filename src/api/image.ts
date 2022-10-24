@@ -2,9 +2,9 @@ import { svg2png } from 'svg2png-wasm';
 import { missing } from 'itty-router-extras';
 
 import allSeries from '../series';
-import quest_completed from '../templates/quest_completed';
+import quest_completed from '../templates/twitter_meta';
 
-import IBMPlexSansRegular from '../assets/fonts/IBMPlexSans-Regular.ttf';
+import PlayBold from '../assets/fonts/Play-Bold.ttf';
 
 export default async ({ params }: any) => {
   const { series, quest } = params as any;
@@ -28,13 +28,13 @@ export default async ({ params }: any) => {
   const svg = quest_completed({
     title: seriesData.title,
     subtitle: challenge.context.title,
-    level: series,
+    level: `LEVEL 0${series}`,
     image: badgeImage,
   });
 
   const buffer = await svg2png(svg, {
-    fonts: [new Uint8Array(IBMPlexSansRegular)],
-    scale: 2,
+    fonts: [new Uint8Array(PlayBold)],
+    scale: 1,
   });
 
   return new Response(buffer, {

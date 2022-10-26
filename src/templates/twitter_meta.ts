@@ -267,9 +267,10 @@ export default ({ title, subtitle, level, image }: Options) => `
 <rect x="151" y="208" width="168" height="168" fill="url(#pattern6)"/>
 </g>
 <rect x="152.055" y="209.055" width="165.891" height="165.891" stroke="#23234E" stroke-width="2.10913"/>
+<rect x="355.96" y="208" width="32" height="33" fill="url(#pattern7)"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Play" font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="387.96" y="236.972"> </tspan></text>
 <text fill="#07FFEE" xml:space="preserve" style="white-space: pre" font-family="Play" font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="604.179" y="236.972">Stellar Quest </tspan></text>
-<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Play" font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="387.96" y="236.972"> I completed a </tspan></text>
-<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Play" font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="355.96" y="236.972">&#x1f680;</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Play" font-size="32" font-weight="bold" letter-spacing="0em"><tspan x="395.335" y="236.972">I completed a </tspan></text>
 <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Play" font-size="56" font-weight="bold" letter-spacing="0em"><tspan x="355.96" y="301.006">${title}</tspan></text>
 <rect width="97.48" height="27.24" transform="translate(355.96 342.13)" fill="#07FFEE"/>
 <text fill="#010323" xml:space="preserve" style="white-space: pre" font-family="Play" font-size="16" font-weight="bold" letter-spacing="0.06em"><tspan x="365.443" y="361.547">${level}</tspan></text>
@@ -679,7 +680,7 @@ export default ({ title, subtitle, level, image }: Options) => `
 <rect width="7.16351" height="7.16351" transform="matrix(-1 0 0 1 481.32 594.818)" fill="#07FFEE"/>
 <rect width="7.16351" height="7.16351" transform="matrix(-1 0 0 1 474.156 587.655)" fill="#07FFEE"/>
 <rect width="7.16351" height="7.16351" transform="matrix(-1 0 0 1 466.994 580.492)" fill="#5CFFF4"/>
-<path d="M-92.7356 402H-78.8817V409.298H-50.2603V423.901H-21.5794V430.654H-14.4775V438.265V445.051H18.9479V452.255L86.7187 452.269L86.7527 460.287H100.328V467.45H116.884V474.614H142.804L142.913 481.781H152.688L152.597 488.888H174.157V496.052H-92.6834L-92.7356 402Z" fill="#0C115D"/>
+<path d="M-92.7356 402H-78.8817V409.298H-50.2603V423.901H-21.5793V430.654H-14.4775V438.265V445.051H18.9479V452.255L86.7187 452.269L86.7527 460.287H100.328V467.45H116.884V474.614H142.804L142.913 481.781H152.688L152.597 488.888H174.157V496.052H-92.6834L-92.7356 402Z" fill="#0C115D"/>
 <rect width="7.16351" height="7.16351" transform="matrix(-1 0 0 1 167.369 516.104)" fill="#00D8C9"/>
 <rect width="7.16351" height="7.16351" transform="matrix(-1 0 0 1 181.695 516.104)" fill="#5CFFF4"/>
 <rect width="7.16351" height="7.16351" transform="matrix(-1 0 0 1 174.532 508.941)" fill="#5CFFF4"/>
@@ -896,6 +897,9 @@ export default ({ title, subtitle, level, image }: Options) => `
 <pattern id="pattern6" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image1_1444_31742" transform="scale(0.00377358)"/>
 </pattern>
+<pattern id="pattern7" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image2_1444_31742" transform="scale(0.03125 0.030303)"/>
+</pattern>
 <clipPath id="clip0_1444_31742">
 <rect width="1200" height="630" fill="white"/>
 </clipPath>
@@ -903,6 +907,7 @@ export default ({ title, subtitle, level, image }: Options) => `
 <rect x="151" y="208" width="168" height="168" fill="white"/>
 </clipPath>
 <image id="image1_1444_31742" width="265" height="265" xlink:href="data:image/png;base64,${image}"/>
+<image id="image2_1444_31742" width="32" height="33" xlink:href="data:image/png;base64,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"/>
 </defs>
 </svg>
 `;
